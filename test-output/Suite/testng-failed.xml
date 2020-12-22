@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.amazon.qa.tests.RegisterPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="RegisterTest"/>
+        </methods>
+      </class> <!-- com.amazon.qa.tests.RegisterPageTest -->
+      <class name="com.amazon.qa.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+          <include name="verifyHelloPeterTest"/>
+          <include name="ClickOnBasket"/>
+          <include name="verifylogoHomePageTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amazon.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
